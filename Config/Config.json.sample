@@ -1,0 +1,30 @@
+{
+    "Testing": true,
+    "Log_Level": 20,
+    "Log_Location": ".//Logs",
+    "From": "emailToSendFrom@domain.com",
+    "Testing_From": "emailToSendFromTest@testdomain.com",
+    "Email_Server": "O365tenant-com.mail.protection.outlook.com",
+    "Testing_Email_Server": "testO365tenant-com.mail.protection.outlook.com",
+    "Testing_Email_Recipients": [
+        "user@testdomain.com"
+    ],
+    "Email_Recipients": [
+        "user@domain.com",
+        "user2@domain.com"
+    ],
+    "ADServer": "localadserver.domain.com",
+    "Testing_ADServer": "localtestadserver.testdomain.local",
+    "ADQueryAsUser": "domain\\service_account",
+    "Testing_ADQueryAsUser": "testdomain\\service_account",
+    "Testing_API_Key": "test_gophish_api_key_goes_here",
+    "API_Key": "gophish_api_key_goes_here",
+    "Testing_Gophish_Hostname": "https://gophish.testdomain.local:3333",
+    "Gophish_Hostname": "https://gophish.proddomain.com:3333",
+    "Testing_Search_Base": "OU=Primary,DC=domain,DC=local",
+    "Search_Base": "OU=Primary,DC=domain,DC=com",
+    "Exclude_Groups":[
+        "*excluded_group_name_1*",
+        "*excluded_group_name_2*"
+    ]
+}
